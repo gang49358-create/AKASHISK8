@@ -2,424 +2,476 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AkashiSK8 — Rust Mobile</title>
+    <title>AkashiSK8 | RUST MOBILE</title>
 
-    <meta name="description"
-          content="AkashiSK8 — Rust Mobile player profile">
+    <meta
+        name="description"
+        content="AkashiSK8 — RUST MOBILE esports player. YZ Clan."
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- PRELOADER -->
+
+    <div class="loader" id="loader">
+        <div class="loader-logo">YZ</div>
+        <div class="loader-line"></div>
+        <span>LOADING PROFILE...</span>
+    </div>
+
+
+    <!-- BACKGROUND -->
+
+    <div class="noise"></div>
+    <div class="particles" id="particles"></div>
+
+
     <!-- NAVIGATION -->
 
-    <nav class="navbar">
+    <header class="navbar">
 
         <div class="logo">
-            AKASHI<span>SK8</span>
+            <span>AKASHI</span><b>SK8</b>
         </div>
 
-        <div class="nav-links">
-            <a href="#profile">PROFILE</a>
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
             <a href="#stats">STATS</a>
-            <a href="#career">CAREER</a>
-        </div>
+            <a href="#clan">CLAN</a>
+        </nav>
 
-    </nav>
-
-
-    <!-- HERO -->
-
-    <header class="hero">
-
-        <div class="hero-content">
-
-            <div class="kicker">
-                RUST MOBILE / TENCENT
-            </div>
-
-            <h1>
-                AKASHI<span>SK8</span>
-            </h1>
-
-            <p class="subtitle">
-                Competitive survival player focused on
-                PvP, progression and high-pressure raids.
-            </p>
-
-            <div class="status">
-                <span class="status-dot"></span>
-                ACTIVE PLAYER
-            </div>
-
-            <div class="buttons">
-
-                <a href="#profile" class="btn primary">
-                    VIEW PROFILE
-                </a>
-
-                <a href="#stats" class="btn secondary">
-                    STATISTICS
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="hero-image">
-
-            <div class="image-frame">
-
-                <img
-                    src="assets/profile.jpg"
-                    alt="AkashiSK8 Rust Mobile profile"
-                >
-
-            </div>
-
-            <div class="level-card">
-
-                <strong>LV. 72</strong>
-
-                <span>
-                    PLAYER LEVEL
-                </span>
-
-            </div>
-
-        </div>
+        <a href="#contact" class="nav-button">
+            CONTACT
+        </a>
 
     </header>
 
 
-    <!-- STATS -->
+    <!-- HERO -->
 
-    <section id="stats" class="section">
+    <main>
 
-        <div class="section-header">
+        <section class="hero" id="home">
 
-            <h2>
-                PLAYER DATA
-            </h2>
+            <div class="hero-content">
 
-            <span>
-                PUBLIC PROFILE
-            </span>
-
-        </div>
-
-
-        <div class="stats-grid">
-
-            <div class="stat-card">
-
-                <strong>72</strong>
-
-                <span>
-                    PLAYER LEVEL
-                </span>
-
-            </div>
-
-
-            <div class="stat-card">
-
-                <strong>V</strong>
-
-                <span>
-                    DIAMOND RANK
-                </span>
-
-            </div>
-
-
-            <div class="stat-card">
-
-                <strong>2×</strong>
-
-                <span>
-                    SPECIALIST V
-                </span>
-
-            </div>
-
-
-            <div class="stat-card">
-
-                <strong>24/7</strong>
-
-                <span>
-                    SURVIVAL MINDSET
-                </span>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- PROFILE -->
-
-    <section id="profile" class="section">
-
-        <div class="section-header">
-
-            <h2>
-                PROFILE
-            </h2>
-
-            <span>
-                AKASHISK8
-            </span>
-
-        </div>
-
-
-        <div class="profile-grid">
-
-
-            <!-- IDENTITY -->
-
-            <div class="panel">
-
-                <h3>
-                    IDENTITY
-                </h3>
-
-
-                <div class="profile-row">
-
-                    <span>
-                        Nickname
-                    </span>
-
-                    <strong>
-                        AkashiSK8
-                    </strong>
-
+                <div class="status">
+                    <span class="status-dot"></span>
+                    ONLINE // RUST MOBILE
                 </div>
 
-
-                <div class="profile-row">
-
-                    <span>
-                        Game
-                    </span>
-
-                    <strong>
-                        Rust Mobile
-                    </strong>
-
-                </div>
-
-
-                <div class="profile-row">
-
-                    <span>
-                        Publisher
-                    </span>
-
-                    <strong>
-                        Tencent
-                    </strong>
-
-                </div>
-
-
-                <div class="profile-row">
-
-                    <span>
-                        Player ID
-                    </span>
-
-                    <strong>
-                        69218804691894274
-                    </strong>
-
-                </div>
-
-            </div>
-
-
-            <!-- SEASON -->
-
-            <div class="panel">
-
-                <h3>
-                    CURRENT SEASON
-                </h3>
-
-
-                <div class="rank">
-                    DIAMOND V
-                </div>
-
-                <p class="chinese-rank">
-                    蚀骨钻石 V
+                <p class="small-title">
+                    YZ CLAN // ESPORTS PLAYER
                 </p>
 
+                <h1>
+                    AKASHI<span>SK8</span>
+                </h1>
 
-                <div class="profile-row">
+                <div class="hero-line"></div>
 
-                    <span>
-                        Experience
-                    </span>
+                <p class="hero-description">
+                    RUST MOBILE esports player.
+                    1100+ hours of experience,
+                    Diamond II rank and a passion for PvP.
+                </p>
 
-                    <strong>
-                        3350 / 8000
-                    </strong>
+                <div class="hero-buttons">
 
-                </div>
+                    <a href="#stats" class="btn primary">
+                        VIEW STATS
+                        <span>↗</span>
+                    </a>
 
-
-                <div class="profile-row">
-
-                    <span>
-                        Survival
-                    </span>
-
-                    <strong>
-                        求生专家 V
-                    </strong>
-
-                </div>
-
-
-                <div class="profile-row">
-
-                    <span>
-                        Combat
-                    </span>
-
-                    <strong>
-                        作战专家 V
-                    </strong>
+                    <a href="#about" class="btn secondary">
+                        ABOUT ME
+                    </a>
 
                 </div>
 
             </div>
 
-        </div>
 
-    </section>
+            <div class="hero-card">
+
+                <div class="card-top">
+                    <span>PLAYER PROFILE</span>
+                    <span class="live">● LIVE</span>
+                </div>
+
+                <div class="profile-symbol">
+                    YZ
+                </div>
+
+                <h2>AKASHISK8</h2>
+
+                <p>RUST MOBILE PLAYER</p>
+
+                <div class="mini-stats">
+
+                    <div>
+                        <strong>74</strong>
+                        <span>LEVEL</span>
+                    </div>
+
+                    <div>
+                        <strong>II</strong>
+                        <span>DIAMOND</span>
+                    </div>
+
+                    <div>
+                        <strong>1.1K+</strong>
+                        <span>HOURS</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll">
+                <span></span>
+                SCROLL TO EXPLORE
+            </div>
+
+        </section>
 
 
-    <!-- CAREER -->
+        <!-- ABOUT -->
 
-    <section id="career" class="section">
+        <section class="section about" id="about">
 
-        <div class="section-header">
+            <div class="section-heading">
+
+                <span>01 // PROFILE</span>
+
+                <h2>
+                    MORE THAN<br>
+                    <em>A PLAYER.</em>
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <p class="big-text">
+                        Я — <strong>AkashiSK8</strong>,
+                        RUST MOBILE игрок и участник
+                        клана <strong>YZ</strong>.
+                    </p>
+
+                    <p>
+                        Более 1100 часов в игре помогли мне
+                        прокачать стрельбу, реакцию и понимание
+                        PvP. Я люблю динамичные сражения,
+                        рискованные моменты и ситуации,
+                        где нужно принимать решение за долю секунды.
+                    </p>
+
+                    <p>
+                        Моя цель — постоянно становиться сильнее,
+                        развивать свою механику и показывать,
+                        на что способен игрок YZ.
+                    </p>
+
+                </div>
+
+
+                <div class="quote-card">
+
+                    <div class="quote-mark">"</div>
+
+                    <h3>
+                        NO EASY FIGHTS.
+                    </h3>
+
+                    <p>
+                        I don't look for easy fights.
+                        I make fights difficult for my opponents.
+                    </p>
+
+                    <span>
+                        — AKASHISK8
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATS -->
+
+        <section class="section stats-section" id="stats">
+
+            <div class="section-heading center">
+
+                <span>02 // PERFORMANCE</span>
+
+                <h2>
+                    PLAYER <em>STATS</em>
+                </h2>
+
+            </div>
+
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <div class="stat-number" data-target="1100">
+                        0
+                    </div>
+
+                    <div class="stat-label">
+                        HOURS PLAYED
+                    </div>
+
+                    <div class="stat-description">
+                        Опыт в RUST MOBILE
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-number" data-target="74">
+                        0
+                    </div>
+
+                    <div class="stat-label">
+                        PLAYER LEVEL
+                    </div>
+
+                    <div class="stat-description">
+                        Текущий уровень
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card rank-card">
+
+                    <div class="rank-symbol">
+                        II
+                    </div>
+
+                    <div class="stat-label">
+                        DIAMOND II
+                    </div>
+
+                    <div class="stat-description">
+                        Competitive rank
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card weapon-card">
+
+                    <div class="weapon">
+                        AK-47
+                    </div>
+
+                    <div class="stat-label">
+                        SIGNATURE WEAPON
+                    </div>
+
+                    <div class="stat-description">
+                        Любимое оружие
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PLAYSTYLE -->
+
+        <section class="section playstyle">
+
+            <div class="section-heading">
+
+                <span>03 // PLAYSTYLE</span>
+
+                <h2>
+                    BUILT FOR<br>
+                    <em>PVP.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="style-grid">
+
+                <div class="style-card">
+                    <span>01</span>
+                    <h3>AGGRESSIVE</h3>
+                    <p>
+                        Давление на противника
+                        и постоянный контроль ситуации.
+                    </p>
+                </div>
+
+                <div class="style-card">
+                    <span>02</span>
+                    <h3>TACTICAL</h3>
+                    <p>
+                        Позиция, тайминг и правильное
+                        решение важнее лишнего риска.
+                    </p>
+                </div>
+
+                <div class="style-card">
+                    <span>03</span>
+                    <h3>FAST</h3>
+                    <p>
+                        Быстрая реакция и моментальное
+                        принятие решений.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CLAN -->
+
+        <section class="section clan" id="clan">
+
+            <div class="clan-content">
+
+                <div class="clan-badge">
+                    YZ
+                </div>
+
+                <div>
+
+                    <span class="eyebrow">
+                        04 // TEAM
+                    </span>
+
+                    <h2>
+                        YZ<br>
+                        <em>CLAN</em>
+                    </h2>
+
+                    <p>
+                        Команда, где важны дисциплина,
+                        командная игра и желание побеждать.
+                        <strong>YZ</strong> — часть моего пути
+                        в RUST MOBILE.
+                    </p>
+
+                    <div class="clan-tags">
+                        <span>RUST MOBILE</span>
+                        <span>PVP</span>
+                        <span>TEAMWORK</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SIGNATURE -->
+
+        <section class="signature">
+
+            <div class="signature-bg">
+                AKASHI
+            </div>
+
+            <p>
+                1100+ HOURS // LEVEL 74 // DIAMOND II
+            </p>
 
             <h2>
-                CAREER
+                AKASHI<span>SK8</span>
             </h2>
 
-            <span>
-                ROAD TO COMPETITIVE
-            </span>
+            <div class="signature-line"></div>
 
-        </div>
+            <p>
+                YZ CLAN // RUST MOBILE
+            </p>
+
+        </section>
 
 
-        <div class="timeline">
+        <!-- CONTACT -->
 
+        <section class="section contact" id="contact">
 
-            <div class="timeline-item">
+            <div class="section-heading center">
 
-                <time>
-                    NOW
-                </time>
+                <span>05 // CONNECT</span>
 
-                <div>
-
-                    <h3>
-                        ACTIVE RUST MOBILE PLAYER
-                    </h3>
-
-                    <p>
-                        Building a public competitive profile
-                        and collecting verifiable results.
-                    </p>
-
-                </div>
+                <h2>
+                    SEE YOU<br>
+                    <em>IN-GAME.</em>
+                </h2>
 
             </div>
 
+            <div class="contact-buttons">
 
-            <div class="timeline-item">
+                <a href="#" class="contact-btn">
+                    <span>DISCORD</span>
+                    <b>↗</b>
+                </a>
 
-                <time>
-                    SEASON
-                </time>
+                <a href="#" class="contact-btn">
+                    <span>TELEGRAM</span>
+                    <b>↗</b>
+                </a>
 
-                <div>
-
-                    <h3>
-                        DIAMOND V
-                    </h3>
-
-                    <p>
-                        Current season rank shown on the
-                        supplied in-game profile.
-                    </p>
-
-                </div>
+                <a href="#" class="contact-btn">
+                    <span>TIKTOK</span>
+                    <b>↗</b>
+                </a>
 
             </div>
 
+        </section>
 
-            <div class="timeline-item">
-
-                <time>
-                    NEXT
-                </time>
-
-                <div>
-
-                    <h3>
-                        COMPETITIVE EXPANSION
-                    </h3>
-
-                    <p>
-                        Tournament results, team achievements
-                        and verified clips can be added here.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </section>
+    </main>
 
 
     <!-- FOOTER -->
 
     <footer>
 
-        <div class="footer-logo">
-            AKASHI<span>SK8</span>
+        <div>
+            AKASHISK8
         </div>
 
-        <p>
-            RUST MOBILE / TENCENT
-        </p>
+        <span>
+            YZ CLAN // RUST MOBILE
+        </span>
 
-        <small>
-            © 2026 AkashiSK8
-        </small>
+        <div>
+            © 2026
+        </div>
 
     </footer>
 
 
+    <script src="script.js"></script>
+
 </body>
-<script src="script.js"></script>
 </html>
